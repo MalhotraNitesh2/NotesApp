@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.notesapp"
-        minSdkVersion 16
+        minSdkVersion 25
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -59,6 +59,8 @@ dependencies {
     // UI
     implementation "androidx.constraintlayout:constraintlayout:$rootProject.constraintLayoutVersion"
     implementation "com.google.android.material:material:$rootProject.materialVersion"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0"
 
     // Testing
     testImplementation "junit:junit:$rootProject.junitVersion"
